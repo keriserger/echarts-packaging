@@ -11,6 +11,11 @@ const routes = [
     path: "/font",
     name: "font",
     component: ()=> import('&'),
+  },
+  {
+    path: "/table",
+    name: "table",
+    component: ()=> import('@/views/table.vue'),
   }
 ];
 
